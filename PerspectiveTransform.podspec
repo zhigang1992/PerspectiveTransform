@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://twitter.com/iospaulz'
   s.platform          = :ios, '12.2'
   s.swift_version     = '5.0'
-  s.source_files      = 'Pod/Classes/**/*'
+  s.source_files      = 'Sources/PerspectiveTransform/**/*'
   s.frameworks        = 'UIKit', 'CoreGraphics', 'QuartzCore'
   s.test_spec 'UnitSpecs' do |ts|
       ts.requires_app_host = false

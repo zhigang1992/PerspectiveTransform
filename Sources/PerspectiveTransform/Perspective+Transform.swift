@@ -5,6 +5,7 @@
 //  Created by Paul Zabelin on 2/20/16.
 //
 //
+import UIKit
 
 public extension Perspective {
     /**
