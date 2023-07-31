@@ -14,7 +14,7 @@ import simd
 public final class Perspective {
     let vectors: [Vector3]
     
-    public init(_ quad: Quadrilateral) {
+    init(_ quad: Quadrilateral) {
         vectors = quad.corners.map {$0.homogeneous3dvector}
     }
     
